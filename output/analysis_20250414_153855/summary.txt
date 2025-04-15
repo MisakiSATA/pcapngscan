@@ -1,0 +1,472 @@
+流量分析摘要
+==================================================
+
+基本信息:
+------------------------------
+文件大小: 169979.91 KB
+数据包数量: 736029
+开始时间: 2018-08-08 14:34:47.782759
+结束时间: 2018-08-08 16:51:09.935672
+总流量: 157952.01 KB
+平均包大小: 220.97 bytes
+最大包大小: 4619 bytes
+最小包大小: 42 bytes
+
+安全分析:
+------------------------------
+检测到的攻击意图:
+- 端口扫描: 攻击者可能在寻找开放的服务和漏洞
+  可信度: 高
+- SQL注入: 攻击者试图通过SQL注入获取数据库信息
+  可信度: 高
+- XSS攻击: 攻击者试图通过XSS攻击获取用户会话信息
+  可信度: 中
+
+可疑IP地址:
+- 192.168.32.189
+
+文件分析:
+------------------------------
+
+危险文件:
+- 文件名: /_vti_bin/_vti_aut/author.dll
+  大小: 45 bytes
+  MD5: ba5cecc3218e18b94a84b62ea1db2af3
+  威胁: 危险文件类型: executable, 检测到command_injection特征
+- 文件名: /phpMoAdmin/moadmin.php
+  大小: 31 bytes
+  MD5: 86bed6c2610d40c41f8114d0bec4711e
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /phpmoadmin/moadmin.php
+  大小: 31 bytes
+  MD5: 86bed6c2610d40c41f8114d0bec4711e
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /moadmin/moadmin.php
+  大小: 31 bytes
+  MD5: 86bed6c2610d40c41f8114d0bec4711e
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /admin/login.php?rec=login.php
+  大小: 70 bytes
+  MD5: 59fd30da04a7dff3c45eb603d5a7a3f6
+  威胁: 危险文件类型: script, 检测到command_injection特征, 包含敏感关键词: password, 包含敏感关键词: user, 包含敏感关键词: pass
+- 文件名: /admin/login.php?rec=login.php
+  大小: 64 bytes
+  MD5: ede422beeb62546cc01f9f130964240d
+  威胁: 危险文件类型: script, 检测到command_injection特征, 包含敏感关键词: password, 包含敏感关键词: user, 包含敏感关键词: pass
+- 文件名: /admin/login.php?rec=login.php
+  大小: 102 bytes
+  MD5: d4798dab1868b4c6fece761119de4d65
+  威胁: 危险文件类型: script, 检测到command_injection特征, 包含敏感关键词: user, 包含敏感关键词: token
+- 文件名: /page.php
+  大小: 163 bytes
+  MD5: 4de112b4beeb8bfd7331675b6b44d1bc
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /page.php
+  大小: 163 bytes
+  MD5: cc611b3f554a000e33bb016eefb0f0f8
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /product.php
+  大小: 169 bytes
+  MD5: 8ff1cb21855a5e346e8e1f651a1ecd85
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /page.php
+  大小: 163 bytes
+  MD5: 98cd008073dda795b564e22589ba2b0e
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征, 包含敏感关键词: jwt
+- 文件名: /product.php
+  大小: 169 bytes
+  MD5: 96bad0fe2accb85a03b5d3034311329f
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /page.php
+  大小: 163 bytes
+  MD5: 7e4f93f339ddcb036ae7acce3abe25b9
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /product.php
+  大小: 169 bytes
+  MD5: 480d446e0cc81b4f3f05d0e58f8114f8
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /product.php
+  大小: 169 bytes
+  MD5: e15e47913869a344f3b8905c2d327dab
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /article.php
+  大小: 169 bytes
+  MD5: a873c963bcc70abf979de0c6b7021179
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /page.php
+  大小: 136 bytes
+  MD5: 841ef67baf41362fa8a40d0a93dfeb96
+  威胁: 危险文件类型: script, 检测到command_injection特征, 包含敏感关键词: root
+- 文件名: /product_category.php
+  大小: 187 bytes
+  MD5: 6be7b51cc55b22e025a22289fa84005d
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /article.php
+  大小: 169 bytes
+  MD5: 54eb2536f3d8faaf85c275e843086070
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /product_category.php
+  大小: 187 bytes
+  MD5: d0b0711762ce319bbceb7f0f2156c735
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /article_category.php
+  大小: 187 bytes
+  MD5: c5b81ab03790714156496b62e8dbf4dc
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /product_category.php
+  大小: 187 bytes
+  MD5: 54a009b7b63618cc2b1f79df2732d6e0
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /product_category.php
+  大小: 187 bytes
+  MD5: 09f41a5b54b295d9db46c19bab5239d9
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /article_category.php
+  大小: 187 bytes
+  MD5: ad9fa9bb65e3d0f64d46ebf2de556992
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /product_category.php
+  大小: 136 bytes
+  MD5: 742f00c41219ae07bc6f0abfe0c0402b
+  威胁: 危险文件类型: script, 检测到command_injection特征, 包含敏感关键词: root
+- 文件名: /article_category.php
+  大小: 187 bytes
+  MD5: b246d7f45271b63d04a4b8ec5ae1f02c
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /article_category.php
+  大小: 187 bytes
+  MD5: f77af9692e9cc41d9778c9953496ce0e
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /product.php
+  大小: 136 bytes
+  MD5: a391ceae8ecbf0b88b0ae1423e19b4ff
+  威胁: 危险文件类型: script, 检测到command_injection特征, 包含敏感关键词: root
+- 文件名: /article.php
+  大小: 169 bytes
+  MD5: 6c08eff2488bd35a50331f7532ae3f2b
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /article_category.php
+  大小: 136 bytes
+  MD5: 9320d29eac3b585aa067563da76fd94c
+  威胁: 危险文件类型: script, 检测到command_injection特征, 包含敏感关键词: root
+- 文件名: /article.php
+  大小: 169 bytes
+  MD5: c7a09a9a376ee1467bf7e785d3621710
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /article.php
+  大小: 136 bytes
+  MD5: 54f2c8c94cd4149ee6621faa92e9ea8b
+  威胁: 危险文件类型: script, 检测到command_injection特征, 包含敏感关键词: root
+- 文件名: /m/product.php
+  大小: 169 bytes
+  MD5: bce2a85c56f4df78e1ad3f67ca946f97
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /m/page.php
+  大小: 163 bytes
+  MD5: 269ff374c49a3f0c80531eb95f520c99
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /m/product.php
+  大小: 169 bytes
+  MD5: 84f53da51a21dc6f74dbc554a1b52c01
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /m/product.php
+  大小: 169 bytes
+  MD5: c81466162bbde6c542f345368bb66b32
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /m/article.php
+  大小: 169 bytes
+  MD5: c5be41bead455adf4282b0e05996548a
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /m/product.php
+  大小: 169 bytes
+  MD5: 2d4f322927b914a8b4744d13934ffbce
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /m/article.php
+  大小: 169 bytes
+  MD5: d7ccd79a70c58a3552d95fb568f96a6a
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /m/page.php
+  大小: 163 bytes
+  MD5: 1cf78797a430024991a1335f763002c8
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /m/article.php
+  大小: 169 bytes
+  MD5: 27900253450c91549bd5179b16702762
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /m/product.php
+  大小: 136 bytes
+  MD5: 21b89333d171ed19dd8920ac6a7401fb
+  威胁: 危险文件类型: script, 检测到command_injection特征, 包含敏感关键词: root
+- 文件名: /m/page.php
+  大小: 163 bytes
+  MD5: c0d0954b046602aa2445db59f769f3e8
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /m/product_category.php
+  大小: 187 bytes
+  MD5: 0a6e2f45a41388708e79fed0e12b2fd2
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /m/article.php
+  大小: 169 bytes
+  MD5: a05f1ecc1e218155316e66dcb5635df5
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /m/page.php
+  大小: 163 bytes
+  MD5: fe41e1cfe8f17c9679ac1ee1c076191e
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /m/product_category.php
+  大小: 187 bytes
+  MD5: 2fef3d9b6ab4d0c705c348a962266920
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /m/page.php
+  大小: 136 bytes
+  MD5: 32739ac6811a00f2c741a271a334d5cd
+  威胁: 危险文件类型: script, 检测到command_injection特征, 包含敏感关键词: root
+- 文件名: /m/article_category.php
+  大小: 187 bytes
+  MD5: 7310c8b4e84ce74be53b2aefd886ccfd
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /m/article.php
+  大小: 136 bytes
+  MD5: 9ada3fac623594c1fb81470c1bdb17de
+  威胁: 危险文件类型: script, 检测到command_injection特征, 包含敏感关键词: root
+- 文件名: /m/product_category.php
+  大小: 187 bytes
+  MD5: b42e10a1f69fc529e0ba43186c29538b
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /m/product_category.php
+  大小: 187 bytes
+  MD5: d70b037250e6699e67cf59e8820cc8b8
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /m/article_category.php
+  大小: 187 bytes
+  MD5: 6ae4b413fb20f2adbbc8a5c43df0731e
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /m/product_category.php
+  大小: 136 bytes
+  MD5: 00a1720b3cc4dccd56472885dc59480f
+  威胁: 危险文件类型: script, 检测到command_injection特征, 包含敏感关键词: root
+- 文件名: /m/article_category.php
+  大小: 187 bytes
+  MD5: 259894e6d81c2b83139c559332f0652f
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /admin/login.php
+  大小: 165 bytes
+  MD5: 153ea24a5c062fa8e86aa25b13e658dd
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征, 包含敏感关键词: login
+- 文件名: /m/article_category.php
+  大小: 187 bytes
+  MD5: a10c0dce726c257cc9808987ee1e51fb
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /admin/login.php
+  大小: 165 bytes
+  MD5: 8da12f3d82a47c82e7dc93a939032874
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征, 包含敏感关键词: login
+- 文件名: /admin/login.php
+  大小: 165 bytes
+  MD5: bf3c90b916f0edde5825bd4f2868f849
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征, 包含敏感关键词: login
+- 文件名: /m/article_category.php
+  大小: 136 bytes
+  MD5: f238c6309e62afedb51ea23ccf95f03d
+  威胁: 危险文件类型: script, 检测到command_injection特征, 包含敏感关键词: root
+- 文件名: /admin/login.php
+  大小: 165 bytes
+  MD5: deda98e90b2f34bebb8ad995d1c35aa8
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征, 包含敏感关键词: login
+- 文件名: /admin/login.php
+  大小: 136 bytes
+  MD5: fda7b72db2976cdf6227838bfa1f8ea0
+  威胁: 危险文件类型: script, 检测到command_injection特征, 包含敏感关键词: root
+- 文件名: //xmlrpc.php
+  大小: 1138 bytes
+  MD5: 7cb091cc41faad2cd2aaa7059a7a88ca
+  威胁: 危险文件类型: script, 检测到command_injection特征
+- 文件名: //xmlrpc.php
+  大小: 184 bytes
+  MD5: cb0f3273d2c15644d964cc5260a36fce
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征, 包含敏感关键词: pass
+- 文件名: //xmlrpc.php
+  大小: 202 bytes
+  MD5: 72c0ebb1e4524dc98f1a9ed93ad54b0b
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //xmlrpc.php
+  大小: 208 bytes
+  MD5: 807662b396d91305cdc9d8634da23f09
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //xmlrpc.php
+  大小: 380 bytes
+  MD5: 9338f93ebb3274741251cbfb73173e4c
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //soap.php
+  大小: 184 bytes
+  MD5: cb0f3273d2c15644d964cc5260a36fce
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征, 包含敏感关键词: pass
+- 文件名: //soap.php
+  大小: 202 bytes
+  MD5: 72c0ebb1e4524dc98f1a9ed93ad54b0b
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //soap.php
+  大小: 208 bytes
+  MD5: 807662b396d91305cdc9d8634da23f09
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //soap.php
+  大小: 380 bytes
+  MD5: 9338f93ebb3274741251cbfb73173e4c
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //xmlrpc-server.php
+  大小: 184 bytes
+  MD5: cb0f3273d2c15644d964cc5260a36fce
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征, 包含敏感关键词: pass
+- 文件名: //xmlrpc-server.php
+  大小: 202 bytes
+  MD5: 72c0ebb1e4524dc98f1a9ed93ad54b0b
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //xmlrpc-server.php
+  大小: 208 bytes
+  MD5: 807662b396d91305cdc9d8634da23f09
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //xmlrpc-server.php
+  大小: 380 bytes
+  MD5: 9338f93ebb3274741251cbfb73173e4c
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //xmlrpc_server.php
+  大小: 184 bytes
+  MD5: cb0f3273d2c15644d964cc5260a36fce
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征, 包含敏感关键词: pass
+- 文件名: //xmlrpc_server.php
+  大小: 202 bytes
+  MD5: 72c0ebb1e4524dc98f1a9ed93ad54b0b
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //xmlrpc_server.php
+  大小: 208 bytes
+  MD5: 807662b396d91305cdc9d8634da23f09
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //xmlrpc_server.php
+  大小: 380 bytes
+  MD5: 9338f93ebb3274741251cbfb73173e4c
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //xmlrpc/server.php
+  大小: 184 bytes
+  MD5: cb0f3273d2c15644d964cc5260a36fce
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征, 包含敏感关键词: pass
+- 文件名: //xmlrpc/server.php
+  大小: 202 bytes
+  MD5: 72c0ebb1e4524dc98f1a9ed93ad54b0b
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //xmlrpc/server.php
+  大小: 208 bytes
+  MD5: 807662b396d91305cdc9d8634da23f09
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //xmlrpc/server.php
+  大小: 380 bytes
+  MD5: 9338f93ebb3274741251cbfb73173e4c
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //xmlrpc/soapserver.php
+  大小: 184 bytes
+  MD5: cb0f3273d2c15644d964cc5260a36fce
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征, 包含敏感关键词: pass
+- 文件名: //xmlrpc/soapserver.php
+  大小: 202 bytes
+  MD5: 72c0ebb1e4524dc98f1a9ed93ad54b0b
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //xmlrpc/soapserver.php
+  大小: 208 bytes
+  MD5: 807662b396d91305cdc9d8634da23f09
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //xmlrpc/soapserver.php
+  大小: 380 bytes
+  MD5: 9338f93ebb3274741251cbfb73173e4c
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //xmlrpc/soap.php
+  大小: 184 bytes
+  MD5: cb0f3273d2c15644d964cc5260a36fce
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征, 包含敏感关键词: pass
+- 文件名: //xmlrpc/soap.php
+  大小: 202 bytes
+  MD5: 72c0ebb1e4524dc98f1a9ed93ad54b0b
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //xmlrpc/soap.php
+  大小: 208 bytes
+  MD5: 807662b396d91305cdc9d8634da23f09
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //xmlrpc/soap.php
+  大小: 380 bytes
+  MD5: 9338f93ebb3274741251cbfb73173e4c
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //xmlrpc.asp
+  大小: 184 bytes
+  MD5: cb0f3273d2c15644d964cc5260a36fce
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征, 包含敏感关键词: pass
+- 文件名: //xmlrpc.asp
+  大小: 202 bytes
+  MD5: 72c0ebb1e4524dc98f1a9ed93ad54b0b
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //xmlrpc.asp
+  大小: 208 bytes
+  MD5: 807662b396d91305cdc9d8634da23f09
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //xmlrpc.asp
+  大小: 380 bytes
+  MD5: 9338f93ebb3274741251cbfb73173e4c
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //xmlrpc.jsp
+  大小: 184 bytes
+  MD5: cb0f3273d2c15644d964cc5260a36fce
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征, 包含敏感关键词: pass
+- 文件名: //xmlrpc.jsp
+  大小: 202 bytes
+  MD5: 72c0ebb1e4524dc98f1a9ed93ad54b0b
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //xmlrpc.jsp
+  大小: 208 bytes
+  MD5: 807662b396d91305cdc9d8634da23f09
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: //xmlrpc.jsp
+  大小: 380 bytes
+  MD5: 9338f93ebb3274741251cbfb73173e4c
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征
+- 文件名: /images/article/a.php
+  大小: 719 bytes
+  MD5: c14f3337220853a39468326d85a1e24b
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征, 检测到webshell特征
+- 文件名: /images/article/a.php
+  大小: 719 bytes
+  MD5: c14f3337220853a39468326d85a1e24b
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征, 检测到webshell特征
+- 文件名: /images/article/a.php
+  大小: 725 bytes
+  MD5: 3f405db7091169c709974824267c32ab
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征, 检测到webshell特征
+- 文件名: /images/article/a.php
+  大小: 725 bytes
+  MD5: 3f405db7091169c709974824267c32ab
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征, 检测到webshell特征
+- 文件名: /images/article/a.php
+  大小: 367 bytes
+  MD5: 23a796f08f6806ffe4b3c3b063258063
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征, 检测到webshell特征
+- 文件名: /images/article/a.php
+  大小: 375 bytes
+  MD5: 55978527bd8f947b4df1da7ecde802be
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征, 检测到webshell特征
+- 文件名: /images/article/a.php
+  大小: 1214 bytes
+  MD5: 6eaf9d3f14e3526f69caf92e2bae247e
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征, 检测到command_injection特征, 检测到webshell特征
+- 文件名: /images/article/a.php
+  大小: 617 bytes
+  MD5: b399fea15267e0ad9bb6fbc83df5de5a
+  威胁: 危险文件类型: script, 检测到command_injection特征, 检测到command_injection特征, 检测到webshell特征
+
+网络拓扑:
+------------------------------
+节点数量: 8
+连接数量: 8
+
+主要连接:
+- 192.168.94.233 -> 192.168.32.189: 807 个数据包
+- 192.168.32.189 -> 192.168.94.233: 1076 个数据包
+- 192.168.32.189 -> 192.168.94.59: 390447 个数据包
+- 192.168.32.153 -> 192.168.32.255: 39 个数据包
+- 192.168.32.152 -> 192.168.32.255: 22 个数据包
+- 192.168.94.59 -> 192.168.32.189: 334463 个数据包
